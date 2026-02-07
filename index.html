@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Economics: The Ghost in the Machine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        terminalGreen: '#10b981',
+                        terminalDark: '#020617',
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom scrollbar for that terminal feel */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #020617; }
+        ::-webkit-scrollbar-thumb { background: #10b981; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-terminalDark text-slate-300 font-mono selection:bg-terminalGreen selection:text-black">
+
+    <header class="relative h-screen flex items-center justify-center overflow-hidden border-b border-terminalGreen/20">
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <div class="absolute top-0 left-10 w-px h-full bg-gradient-to-b from-transparent via-terminalGreen to-transparent animate-pulse"></div>
+            <div class="absolute top-0 left-1/4 w-px h-full bg-gradient-to-b from-transparent via-terminalGreen to-transparent animate-pulse-slow"></div>
+            <div class="absolute top-0 right-1/3 w-px h-full bg-gradient-to-b from-transparent via-terminalGreen to-transparent animate-pulse"></div>
+        </div>
+
+        <div class="z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-bold text-terminalGreen mb-4 tracking-tighter">
+                ALGORITHMIC <span class="text-white">MARKETS</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg text-slate-400">
+                Exploring the efficiency and invisible risks of AI-driven global economics.
+            </p>
+            <div class="mt-8">
+                <span class="inline-block px-4 py-2 border border-terminalGreen text-terminalGreen text-xs uppercase tracking-widest hover:bg-terminalGreen hover:text-black transition-all cursor-pointer">
+                    Initialize System
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <main id="content" class="py-20 px-6 max-w-5xl mx-auto">
+        <p class="text-center italic opacity-50">Deep thinking in the age of artificial thought...</p>
+    </main>
+
+</body>
+</html>
