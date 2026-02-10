@@ -52,5 +52,5 @@ To meet the technical requirements, I utilized the following 20+ utility classes
 
 
 
-## 🛠️ Technical Process
+##  Technical Process
 I built this SPA from scratch using the Tailwind Play CDN. I focused on clean alignment and a consistent padding strategy (`py-24`) to give the page a professional, spacious feel. Every color choice was intentional to reflect the "Economics" theme, using greens for growth and reds for systemic risk.
